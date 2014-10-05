@@ -1,15 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RotMGLauncher
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// This is just the function to test everything later it will be compiled to a dll.
+        /// </summary>
+        /// <param name="args">
+        /// Parameter from the programstart.
+        /// </param>
+        private static void Main(string[] args)
         {
+
+            Console.ReadLine();
         }
     }
 }
