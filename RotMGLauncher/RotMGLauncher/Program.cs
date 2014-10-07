@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Xml;
+using RotMGLauncher.Config;
 
 namespace RotMGLauncher
 {
@@ -12,6 +14,11 @@ namespace RotMGLauncher
         /// </param>
         private static void Main(string[] args)
         {
+            AllSettings setting = new AllSettings();
+            //setting.WriteSettings();
+            // Write default settings to the xml
+
+            setting.GetFromXML();
 
             Console.ReadLine();
         }

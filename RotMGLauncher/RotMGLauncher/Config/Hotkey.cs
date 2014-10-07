@@ -1,6 +1,7 @@
 ﻿using System;
+using RotMGLauncher.Interfaces;
 
-namespace RotMGLauncher
+namespace RotMGLauncher.Config
 {
     internal class Hotkey : ISettings<Hotkey>
     {
@@ -21,11 +22,13 @@ namespace RotMGLauncher
         /// </summary>
         public Hotkey()
         {
-            this.HotkeyKey = new string[4];
+            this.HotkeyKey = new string[6];
             this.HotkeyKey[0] = "76"; // F7
             this.HotkeyKey[1] = "77"; // F8
             this.HotkeyKey[2] = "78"; // F9
-            this.HotkeyKey[3] = "79"; // F10
+            this.HotkeyKey[3] = "7B"; // F12
+            this.HotkeyKey[4] = "7A"; // F11
+            this.HotkeyKey[5] = "79"; // F10
             /*
              * 70 F1 key
              * 71 F2 key

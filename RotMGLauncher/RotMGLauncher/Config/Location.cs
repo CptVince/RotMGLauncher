@@ -1,6 +1,7 @@
 ﻿using System;
+using RotMGLauncher.Interfaces;
 
-namespace RotMGLauncher
+namespace RotMGLauncher.Config
 {
     /// <summary>
     /// A class for the settings in Path and Location of files.

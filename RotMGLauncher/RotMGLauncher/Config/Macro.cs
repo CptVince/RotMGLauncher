@@ -1,6 +1,7 @@
 ﻿using System;
+using RotMGLauncher.Interfaces;
 
-namespace RotMGLauncher
+namespace RotMGLauncher.Config
 {
     internal class Macro : ISettings<Macro>
     {
@@ -30,7 +31,7 @@ namespace RotMGLauncher
             this.MacroText = new string[4];
             this.MacroText[0] = "He lives and reigns and conquers the world.";
             this.MacroText[1] = "Teleport here{!}";
-            this.MacroText[2] = "/pause";
+            this.MacroText[2] = "pause";
             this.MacroText[3] = "All move in{!}";
 
             this.MacroKey = new string[4];

@@ -7,7 +7,7 @@
     <ProjectGuid>{305299FB-EEA2-4CB8-B0ED-060412BC8C3D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RotMGLauncher</RootNamespace>
+    <RootNamespace>RotMGLauncher.Config</RootNamespace>
     <AssemblyName>RotMGLauncher</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,18 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllSettings.cs" />
-    <Compile Include="Config.cs" />
-    <Compile Include="General.cs" />
-    <Compile Include="Hotkey.cs" />
-    <Compile Include="ISettings.cs" />
-    <Compile Include="Location.cs" />
-    <Compile Include="Macro.cs" />
+    <Compile Include="Config\AllSettings.cs" />
+    <Compile Include="Config\General.cs" />
+    <Compile Include="Config\Hotkey.cs" />
+    <Compile Include="Interfaces\ISettings.cs" />
+    <Compile Include="Config\Location.cs" />
+    <Compile Include="Config\Macro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

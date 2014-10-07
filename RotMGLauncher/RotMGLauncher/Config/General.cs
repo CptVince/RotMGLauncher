@@ -1,6 +1,10 @@
 ﻿using System;
+using System.IO;
+using System.Xml;
+using RotMGLauncher.Config;
+using RotMGLauncher.Interfaces;
 
-namespace RotMGLauncher
+namespace RotMGLauncher.Config
 {
     /// <summary>
     /// A class for the settings in General GUI.
@@ -25,7 +29,7 @@ namespace RotMGLauncher
         /// <summary>
         /// Enable the start of an additional program to be launched with RotMG.
         /// </summary>
-        public bool AdditionalProgramm { get; set; }
+        public bool AdditionalProgram { get; set; }
 
         /// <summary>
         /// Enable or disable Macros.
@@ -61,23 +65,13 @@ namespace RotMGLauncher
             this.CustomCursor = true;
             this.ClientTitle = "Realm of the Mad God";
             this.KongregateLogin = false;
-            this.AdditionalProgramm = false;
+            this.AdditionalProgram = false;
             this.EnableMacros = true;
             this.PlayOnTesting = false;
             this.EnableHotkeys = true;
             this.ScreenshotOnPrintKey = true;
             this.IncludeCursorOnScreenshot = true;
 
-        }
-
-        /// <summary>
-        /// Reads the current set config for General from the XML file.
-        /// NotImplementedException
-        /// </summary>
-        /// <returns>The current config of General.</returns>
-        internal static General GetFromXML()
-        {
-            throw new NotImplementedException();
         }
     }
 }
