@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<General>
+		<CustomCursor>True</CustomCursor>
+		<ClientTitle>Realm of the Mad God</ClientTitle>
+		<KongregateLogin>False</KongregateLogin>
+		<AdditionalProgram>False</AdditionalProgram>
+		<EnableMacros>True</EnableMacros>
+		<PlayOnTesting>False</PlayOnTesting>
+		<EnableHotkeys>True</EnableHotkeys>
+		<ScreenshotOnPrintKey>True</ScreenshotOnPrintKey>
+		<IncludeCursorOnScreenshot>True</IncludeCursorOnScreenshot>
+	</General>
+	<Location>
+		<FlashProjectorFile>data\flashplayer_14_sa.exe</FlashProjectorFile>
+		<CustomCursor>data\Cursors\rotmg.cur</CustomCursor>
+		<AdditionalProgram>C:\Your\Program.exe</AdditionalProgram>
+		<HotkeysLocation>data\hotkeys.xml</HotkeysLocation>
+		<MacrosLocation>data\macros.xml</MacrosLocation>
+		<KongregateParameter>?kongregate_username=USERNAME&amp;kongregate_user_id=USERID&amp;kongregate_game_auth_token=TOKEN&amp;kongregate_api_path=PATH</KongregateParameter>
+	</Location>
+	<Hotkeys>
+		<ReziseWindowToDefault>76</ReziseWindowToDefault>
+		<LaunchMediaPlayer>77</LaunchMediaPlayer>
+		<PlayPause>78</PlayPause>
+		<SwitchNextSong>7B</SwitchNextSong>
+		<SwitchPrevSong>7A</SwitchPrevSong>
+		<StopMusic>79</StopMusic>
+	</Hotkeys>
+	<Macros>
+		<Macro1Text>He lives and reigns and conquers the world.</Macro1Text>
+		<Macro2Text>Teleport here{!}</Macro2Text>
+		<Macro3Text>pause</Macro3Text>
+		<Macro4Text>All move in{!}</Macro4Text>
+		<Macro1Key>70</Macro1Key>
+		<Macro2Key>71</Macro2Key>
+		<Macro3Key>72</Macro3Key>
+		<Macro4Key>73</Macro4Key>
+	</Macros>
+</Settings>
